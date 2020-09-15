@@ -1,0 +1,24 @@
+= PiscaLED Library for Arduino =
+
+The "Pisca LED" library allows the control of three LEDs using methods where each one has its role within the library. The "loop" method checks the status of a Boolean variable and, if its value is equal to 1, it executes a code that flashes the three LEDs at different times, those defined in the object creation parameters. The "play" method sets the Boolean value to 1. The "stop" method sets the Boolean value to 0.
+
+For more information about this library please visit us at
+
+
+== License ==
+
+Copyright (c) 2010 Arduino LLC. All right reserved.
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
